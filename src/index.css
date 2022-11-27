@@ -1,13 +1,66 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --palette-color-primary: #277bc0;
+  --palette-color-secondary: #ffb200;
+  --palette-color-tertiary: #ffcb42;
+  --palette-color-quaternary: #fff4cf;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.header-xl, .header-xl-ital, .header-lg, .header-lg-ital, .header-md, .header-md-ital{
+  font-family: 'Bitter', serif;
+}
+
+.header-xl-ital, .header-lg-ital, .header-md-ital, .text-lg-ital, .text-md-ital, .text-sm.ital{
+  font-style: italic;
+}
+
+.header-xl, .header-xl-ital {
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.header-lg, .header-lg-ital{
+  font-weight: 700;
+  font-size: 1.75rem;
+}
+
+.header-md, .header-md-ital{
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.text-lg, .text-lg-ital, .text-lg-bold{
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.text-md, .text-md-ital, .text-md-bold{
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.text-lg-bold, .text-md-bold{
+  font-weight: 700;
+}
+
+.text-sm, .text-sm-ital, .text-sm-bold{
+  font-weight: 200;
+  font-size: 1.1rem;
+}
+
+.text-sm-bold{
+  font-weight: 400;
 }
